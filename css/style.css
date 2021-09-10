@@ -1,57 +1,93 @@
-*{
-	padding: 0;
-	margin: 0;
-	border: 0;
-}
-*,*:before, *:after{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-:focus, :active{outline: none;}
-a:focus, a:active{outline: none;}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
-
-html,body{
-	height: 100%;
-	width: 100%;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-}
-input,button, textarea{font-family: inherit;}
-
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
-button::-moz-focus-inner {padding: 0; border: 0;}
-a, a:visited{text-decoration: none;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
-
-h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
-/*-----------*/
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
 
 body{
-	background-color: #E5E5E5;
+	font-family: 'Montserrat', sans-serif;
+	color: #AE7C78;
+	font-size: 16px;
+	background: #E5E5E5;
+}
+h1,h2,h3{
+	font-family: 'Playfair Display', serif;
+}
+a{
 	color: #AE7C78;
 }
-.page-header{
-
+dt{
+	font-weight: 500;
 }
-.main-menu{
-	width: 1440px;
-	border-top: 1px solid #AE7C78;
-	border-bottom: 1px solid #AE7C78;
+.about-shop__title{
+	font-size: 44px;
 }
-.main-menu ul{
+.about-shop__italic{
+	font-style: italic;
 }
-.main-menu li{
-	display: inline-block;
-	margin-left: 120px;
-	background-position: center;
+.about-shop__subtitle{
+	font-size: 24px;
+}
+.popular__title{
+	font-size: 36px;
+	font-weight: 500;
+}
+.popular__subtitle{
+	font-weight: 500;
+	font-size: 24px;
+}
+.popular__price{
+	font-weight: 500;
+	font-size: 24px;
+}
+.catalog-section h2{
+	font-weight: 700;
+	font-size: 36px;
+}
+.discount h2{
+	font-size: 44px;
+}
+.discount p{
+	font-size: 24px;
+}
+.steps h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+}
+.steps h3{
+	font-weight: 500;
+}
+.news h2{
+	font-size: 36px;
+	font-weight: 700;
+}
+.news p{
+	font-size: 24px;
+}
+.feedback h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+}
+.contacts h2{
+	font-size: 36px;
+	font-weight: 700;
+}
+.contacts dd{
+	font-weight: 500;
 }
